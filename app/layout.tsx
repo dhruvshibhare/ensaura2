@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Ensaura - Mindful Wellness Products',
+  title: 'Ensauraa - Mindful Wellness Products',
   description: 'Mindful apparel for conscious living',
 };
 
