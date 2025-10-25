@@ -31,7 +31,7 @@ export default function ShirtsCollection() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl font-display font-bold text-white mb-6">
-              Mindful Apparel
+              Aura Drop
             </h1>
             <p className="text-xl text-white/90 max-w-2xl mx-auto">
               Comfortable, sustainable clothing designed for conscious living and self-expression
