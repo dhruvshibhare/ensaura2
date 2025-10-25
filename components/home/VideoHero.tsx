@@ -29,18 +29,9 @@ export default function VideoHero() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             Illuminate Your
-            <span className="block text-primary/70">Wellness Journey</span>
+            <span className="block text-primary/70">Auro Drop</span>
           </motion.h1>
           
-          <motion.p
-            className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl mx-auto leading-relaxed"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            Discover our mindful apparel designed to elevate your everyday moments
-          </motion.p>
-
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
             initial={{ opacity: 0, y: 30 }}
@@ -53,15 +44,6 @@ export default function VideoHero() {
                 className="bg-primary hover:opacity-90 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
               >
                 Shop Shirts
-              </Button>
-            </Link>
-            <Link href="/collections">
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary px-8 py-3 rounded-full font-medium transition-all duration-300 w-full sm:w-auto"
-              >
-                Explore Collection
               </Button>
             </Link>
           </motion.div>
