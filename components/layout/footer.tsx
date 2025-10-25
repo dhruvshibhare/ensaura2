@@ -75,7 +75,7 @@ export default function Footer() {
             >
               <Link href="/" className="inline-block mb-4 -ml-6 md:-ml-10">
                 <div className="relative h-14 w-52 md:h-16 md:w-60">
-                  <Image src={require('../../images/logo2.png')} alt="Ensaura" fill className="object-contain" />
+                  <Image src={require('../../images/logo2.png')} alt="Ensauraa" fill className="object-contain" />
                 </div>
               </Link>
               <p className="text-gray-300 mb-6 leading-relaxed">
@@ -86,7 +86,7 @@ export default function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center text-gray-300">
                   <Mail className="h-4 w-4 mr-3 text-primary" />
-                  <span>hello@ensaura.com</span>
+                  <span>hello@ensauraa.com</span>
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Phone className="h-4 w-4 mr-3 text-primary" />
@@ -201,7 +201,7 @@ export default function Footer() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <span>© 2025 Ensaura. Made with</span>
+              <span>© 2025 Ensauraa. Made with</span>
               <Heart className="h-4 w-4 mx-1 text-red-400 fill-current" />
               <span>for mindful living.</span>
             </motion.div>
