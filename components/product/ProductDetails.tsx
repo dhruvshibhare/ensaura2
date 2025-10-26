@@ -60,7 +60,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
               <table className="min-w-full divide-y divide-gray-200 border">
                 <thead className="bg-gray-50">
                   <tr>
-                    {['Size', 'Chest', 'Waist', 'Arms', 'Sleeve', 'Length', 'Hips', 'Top Length'].map((header) => (
+                    {['Size', 'Chest', 'Waist', 'Hip', 'Armhole', 'Sleeves', 'Top Length'].map((header) => (
                       <th key={header} className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                         {header}
                       </th>
@@ -68,28 +68,48 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
                   </tr>
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
-                  {['S', 'M', 'L', 'XL', 'XXL'].map((size, index) => {
-                    const measurements = product.description
-                      .split('\n')
-                      .find(line => line.startsWith(`|   ${size}    `))
-                      ?.split('|')
-                      .filter(Boolean)
-                      .map(m => m.trim());
-
-                    return measurements ? (
-                      <tr key={size} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                        {measurements.map((measurement, i) => (
-                          <td key={i} className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            {measurement}
-                          </td>
-                        ))}
-                      </tr>
-                    ) : null;
-                  })}
+                  {[
+                    { size: 'XS', chest: 30, waist: 24, hip: 32, armhole: 17, sleeves: 18, topLength: 24 },
+                    { size: 'S', chest: 32, waist: 26, hip: 34, armhole: 18, sleeves: 18, topLength: 25 },
+                    { size: 'M', chest: 36, waist: 30, hip: 37, armhole: 19, sleeves: 18, topLength: 26 },
+                    { size: 'L', chest: 38, waist: 32, hip: 40, armhole: 20, sleeves: 18, topLength: 27 },
+                    { size: 'XL', chest: 40, waist: 34, hip: 42, armhole: 21, sleeves: 19, topLength: 27 }
+                  ].map((row, index) => (
+                    <tr key={row.size} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{row.size}</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{row.chest}</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{row.waist}</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{row.hip}</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{row.armhole}</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{row.sleeves}</td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{row.topLength}</td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
             <p className="mt-3 text-sm text-gray-500 italic">All measurements are in inches</p>
+          </div>
+
+          {/* Delivery & Return Policy Section */}
+          <div className="mb-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
+            <h2 className="text-xl font-semibold mb-4">Shipping & Returns</h2>
+            <div className="space-y-3">
+              <div className="flex items-start">
+                <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                <div>
+                  <p className="font-medium text-gray-900">Delivery</p>
+                  <p className="text-sm text-gray-600">4-7 days delivery</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                <div>
+                  <p className="font-medium text-gray-900">Return Policy</p>
+                  <p className="text-sm text-gray-600">3 days return policy</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
