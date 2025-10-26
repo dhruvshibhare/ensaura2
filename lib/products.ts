@@ -104,10 +104,10 @@ All measurements are in inches`,
     price: 2200,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422654/green-striped2_i93ivn.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422654/green-striped1_ah5ydt.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422654/green-striped3_wki1gn.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422656/green-striped4_gknt8j.png"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466932/IMG_2651_zhny8c.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466932/IMG_2649_nmgz8o.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466932/IMG_26492_sug4a2.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466932/IMG_2650_lybrlr.jpg"
     ],
     stock: 50,
     featured: true,
