@@ -50,7 +50,7 @@ export default function Testimonials() {
             Customer Reviews
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            See what our customers love about Auro Drop's thoughtfully crafted shirts
+            See what our customers love about Aura Drop's thoughtfully crafted shirts
           </p>
         </motion.div>
 
