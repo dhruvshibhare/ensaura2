@@ -67,10 +67,9 @@ All measurements are in inches`,
     price: 2650,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422629/blue-floral1_kmblxo.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422629/blue-floral2_zs6fvk.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422629/blue-floral3_hasjjc.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422627/blue-floral4_cwvbsb.png"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466611/IMG_2648_w5g7qi.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466594/IMG_2647_i5co71.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466594/IMG_2644_e3vowx.jpg"
     ],
     stock: 50,
     featured: true,
