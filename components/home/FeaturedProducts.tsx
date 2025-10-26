@@ -84,15 +84,11 @@ export default function FeaturedProducts() {
                   </h3>
                   <div className="flex justify-between items-center">
                     <div>
-                      <div className="text-sm text-gray-500 mb-1">Original Price</div>
+                      <div className="text-sm text-gray-500 mb-1">Price</div>
                       <div className="flex items-center gap-2">
-                        <span className="text-xl font-bold text-gray-900">₹{product.price * 0.85}</span>
-                        <span className="text-sm text-gray-500 line-through">₹{product.price}</span>
+                        <span className="text-xl font-bold text-gray-900">₹{product.price}</span>
                       </div>
                     </div>
-                      <div className="flex items-center">
-                        <span className="text-sm font-medium text-green-600">15% OFF</span>
-                      </div>
                   </div>
                 </div>
               </motion.div>
