@@ -76,13 +76,13 @@ export default function About() {
                   At my core, I have always believed in wellness, in slowing down, and in choosing to prioritize ourselves even when the world tells us otherwise. Like many, I’ve experienced moments of deep self-doubt, struggles with self-esteem, and the weight of questioning my own worth. It was through those very experiences that I discovered the power of self love not as a buzzword, but as a practice that can transform how we see and treat ourselves.
                 </p>
                 <p>
-                  With my background in Psychology, I began to understand that small rituals—affirmations, journaling, mindful spaces, ease our emotions, and nurture our inner strength. Ensauraa grew from that realization and from my heart’s desire to help others access the same tools and knowledge that helped me heal.
+                  With my background in Psychology, I began to understand that small rituals affirmations, journaling, mindful spaces, ease our emotions, and nurture our inner strength. Ensauraa grew from that realization and from my heart’s desire to help others access the same tools and knowledge that helped me heal.
                 </p>
                 <p>
-                  The name carries its own story: Ensō, the Zen circle, symbolizes wholeness and the beauty of imperfection; Aura reflects the unique energy we each radiate when aligned with self-love. The Ginkgo leaf, chosen as our emblem, represents resilience and renewal—a reminder that we, too, can grow back stronger, no matter what we’ve endured.
+                  The name carries its own story: Ensō, the Zen circle, symbolizes wholeness and the beauty of imperfection; Aura reflects the unique energy we each radiate when aligned with self-love. The Ginkgo leaf, chosen as our emblem, represents resilience and renewal a reminder that we, too, can grow back stronger, no matter what we’ve endured.
                 </p>
                 <p>
-                  Every product in Ensauraa is more than just an object—it is an invitation. An invitation to pause, to breathe, and to remember that you are worthy, whole, and enough exactly as you are. My hope is that Ensauraa becomes not just a brand you wear or use, but a gentle guide that supports your journey back to yourself.
+                  Every product in Ensauraa is more than just an object it is an invitation. An invitation to pause, to breathe, and to remember that you are worthy, whole, and enough exactly as you are. My hope is that Ensauraa becomes not just a brand you wear or use, but a gentle guide that supports your journey back to yourself.
                 </p>
                 <p className="italic text-foreground">
                   From my heart to yours, may Ensauraa remind you: you are whole, you are worthy, and you are enough.
