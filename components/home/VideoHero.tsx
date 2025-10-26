@@ -28,7 +28,7 @@ export default function VideoHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Illuminate Your
+            Wellness Brand 
             <span className="block text-white uppercase tracking-wider">AURA DROP</span>
           </motion.h1>
           
