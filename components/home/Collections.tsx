@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 const collections = [
   {
     id: 'shirts',
-    name: 'Auro Drop',
+    name: 'AURO DROP',
     description: 'Comfortable, sustainable clothing for conscious living',
     image: 'https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=800',
     href: '/collections/shirts',
