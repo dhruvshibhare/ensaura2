@@ -86,7 +86,7 @@ export default function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center text-gray-300">
                   <Mail className="h-4 w-4 mr-3 text-primary" />
-                  <span>hello@ensauraa.com</span>
+                  <span>ensauraa@gmail.com</span>
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Phone className="h-4 w-4 mr-3 text-primary" />
@@ -195,14 +195,14 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <motion.div
-              className="flex items-center text-gray-300"
+              className="flex items-center text-gray-300 text-xs sm:text-sm"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
               <span>© 2025 Ensauraa. Made with</span>
-              <Heart className="h-4 w-4 mx-1 text-red-400 fill-current" />
+              <Heart className="h-3 w-3 sm:h-4 sm:w-4 mx-1 text-red-400 fill-current" />
               <span>for mindful living.</span>
             </motion.div>
 
