@@ -13,8 +13,8 @@ const contactInfo = [
   {
     icon: <Mail className="h-6 w-6" />,
     title: 'Email',
-    content: 'hello@ensaura.com',
-    link: 'mailto:hello@ensaura.com'
+    content: 'ensauraa@gmail.com',
+    link: 'mailto:ensauraa@gmail.com'
   },
   {
     icon: <Phone className="h-6 w-6" />,
