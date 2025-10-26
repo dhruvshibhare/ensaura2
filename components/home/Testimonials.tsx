@@ -7,31 +7,31 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-  id: 1,
-  name: 'Asha Mehta',
-  role: 'Wellness Enthusiast',
-  image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200',
-  rating: 5,
-  content: "Ensaura's candles have become a staple in my evening routine. The scents are soothing and long-lasting.",
-  product: 'Lavender Dreams Candle'
+    id: 1,
+    name: 'Arjun Patel',
+    role: 'Creative Director',
+    image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=200',
+    rating: 5,
+    content: "The Black Linen V-Neck Collar Shirt is simply perfect. The linen quality is exceptional, and the V-neck design adds a modern touch that works great for both casual and semi-formal occasions.",
+    product: 'Black Linen V-Neck Collar Shirt'
   },
   {
-  id: 2,
-  name: 'Rahul Sharma',
-  role: 'Mindful Living Advocate',
-  image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200',
-  rating: 5,
-  content: "The tees are soft and comfortable — perfect for daily wear and sustainable too.",
-  product: 'Zen Harmony Tee'
+    id: 2,
+    name: 'Kavya Reddy',
+    role: 'Fashion Blogger',
+    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200',
+    rating: 5,
+    content: "The Blue Floral Linen Button-Up Shirt is a statement piece! The floral pattern is subtle yet eye-catching, and the linen fabric is perfect for Indian summers. Gets so many compliments every time I wear it.",
+    product: 'Blue Floral Linen Button-Up Shirt'
   },
   {
-  id: 3,
-  name: 'Priya Kapoor',
-  role: 'Yoga Instructor',
-  image: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=200',
-  rating: 5,
-  content: "I use Ensaura candles in my yoga sessions — they set a calm, focused atmosphere for practice.",
-  product: 'Eucalyptus Mint Candle'
+    id: 3,
+    name: 'Vikram Khanna',
+    role: 'Business Consultant',
+    image: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=200',
+    rating: 5,
+    content: "The Grey White Striped Relaxed-Fit Collar Shirt has become my go-to for client meetings. The relaxed fit is comfortable yet professional, and the stripe pattern gives it a sophisticated edge. Brilliant craftsmanship!",
+    product: 'Grey White Striped Relaxed-Fit Collar Shirt'
   }
 ];
 
@@ -47,10 +47,10 @@ export default function Testimonials() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            What Our Customers Say
+            Customer Reviews
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Join thousands of satisfied customers who have made Ensaura part of their wellness journey
+            See what our customers love about Auro Drop's thoughtfully crafted shirts
           </p>
         </motion.div>
 
