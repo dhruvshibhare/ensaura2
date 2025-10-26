@@ -8,7 +8,7 @@ import { Star } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: 'Arjun Patel',
+    name: 'Ayushi Jha',
     role: 'Creative Director',
     image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=200',
     rating: 5,
@@ -26,7 +26,7 @@ const testimonials = [
   },
   {
     id: 3,
-    name: 'Vikram Khanna',
+    name: 'Saloni Khanna',
     role: 'Business Consultant',
     image: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=200',
     rating: 5,
