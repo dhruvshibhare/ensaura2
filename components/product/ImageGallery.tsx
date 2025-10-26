@@ -21,7 +21,7 @@ export default function ImageGallery({ images, alt }: ImageGalleryProps) {
 
   if (!images || images.length === 0) {
     return (
-      <div className="w-full aspect-square bg-gray-100 rounded-2xl flex items-center justify-center">
+      <div className="w-full aspect-[3/4] bg-gray-100 rounded-2xl flex items-center justify-center">
         <p className="text-gray-500">No images available</p>
       </div>
     );
@@ -30,7 +30,7 @@ export default function ImageGallery({ images, alt }: ImageGalleryProps) {
   return (
     <div className="flex flex-col gap-4 lg:flex-row-reverse">
       {/* Main Image */}
-      <div className="relative flex-1 aspect-square rounded-2xl overflow-hidden bg-gray-100">
+      <div className="relative flex-1 aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100">
         {isLoading ? (
           <div className="w-full h-full animate-pulse bg-gray-200" />
         ) : (
