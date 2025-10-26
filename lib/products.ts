@@ -29,10 +29,10 @@ All measurements are in inches`,
     price: 2500,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422626/black-linen1_qhk9mt.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422627/black-linen2_xtk5rd.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422626/black-linen3_kuaztf.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422628/black-linen4_biidwp.png"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465650/IMG_2623_jkhhgn.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465521/IMG_26241_yaayuy.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465521/IMG_2624_xpeyo3.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465651/IMG_26244_dz3kov.jpg"
     ],
     stock: 50,
     featured: true,
