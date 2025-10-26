@@ -29,7 +29,6 @@ export default function VideoHero() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             Wellness Brand 
-            <span className="block text-white uppercase tracking-wider">AURA DROP</span>
           </motion.h1>
           
           <motion.div
