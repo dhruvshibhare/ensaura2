@@ -105,9 +105,9 @@ All measurements are in inches`,
     category: 'shirts',
     images: [
       "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466932/IMG_2651_zhny8c.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466932/IMG_2649_nmgz8o.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469068/IMG_2649_wkhxd0.jpg",
       "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466932/IMG_26492_sug4a2.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466932/IMG_2650_lybrlr.jpg"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469697/WhatsApp_Image_2025-10-26_at_14.15.43_5dfd75d4_nawfea.jpg"
     ],
     stock: 50,
     featured: true,
@@ -144,7 +144,7 @@ All measurements are in inches`,
     images: [
       "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465505/IMG_2630_wljjuj.jpg",
       "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465521/im333_uochui.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465505/IMG_26321_gvijdk.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469068/IMG_26321_hq79do.jpg",
       "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466024/IMG_2632_wqh6ai.jpg",
     ],
     stock: 50,
@@ -183,7 +183,7 @@ All measurements are in inches`,
     images: [
       "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_2628_oujmxd.jpg",
       "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_26293_sj65dk.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_26294_lcmm9y.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469068/IMG_26294_msrvzs.jpg",
       "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_2629_oysj5p.jpg"
     ],
     stock: 50,
