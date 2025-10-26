@@ -31,7 +31,7 @@ export default function ShirtsCollection() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl font-display font-bold text-white mb-6">
-              Aura Drop
+              Auro Drop
             </h1>
             <p className="text-xl text-white/90 max-w-2xl mx-auto">
               Comfortable, sustainable clothing designed for conscious living and self-expression
@@ -127,15 +127,10 @@ export default function ShirtsCollection() {
                     )}
                     <div className="flex justify-between items-center">
                       <div>
-                        <div className="text-sm text-gray-500 mb-1">Launch Offer Price</div>
+                        <div className="text-sm text-gray-500 mb-1">Price</div>
                         <div className="flex items-center gap-2">
-                          <span className="text-xl font-bold text-gray-900">₹{shirt.price * 0.85}</span>
-                          <span className="text-sm text-gray-500 line-through">₹{shirt.price}</span>
-                          <span className="text-sm text-green-600">15% off</span>
+                          <span className="text-xl font-bold text-gray-900">₹{shirt.price}</span>
                         </div>
-                      </div>
-                      <div className="flex items-center">
-                        <span className="text-sm font-medium text-green-600">15% OFF</span>
                       </div>
                     </div>
                   </div>
