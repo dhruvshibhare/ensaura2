@@ -21,11 +21,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
         <h1 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-3">{product.name}</h1>
         
         <div className="flex items-center gap-4 mb-6">
-          <div className="text-2xl text-gray-900 font-bold">₹{product.price * 0.85}</div>
-          <div className="text-lg text-gray-500 line-through">₹{product.price}</div>
-          <div className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
-            15% OFF
-          </div>
+          <div className="text-2xl text-gray-900 font-bold">₹{product.price}</div>
         </div>
 
         <div className="prose prose-lg max-w-none">
