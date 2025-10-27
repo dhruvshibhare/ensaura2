@@ -32,7 +32,7 @@ export default function TermsOfService() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-600">
-                By accessing and using Ensaura's website and services, you agree to these Terms of Service. If you do not agree with any part of these terms, please do not use our services.
+                By accessing and using ensauraa's website and services, you agree to these Terms of Service. If you do not agree with any part of these terms, please do not use our services.
               </p>
             </section>
 
@@ -71,7 +71,7 @@ export default function TermsOfService() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Contact Information</h2>
               <p className="text-gray-600">
                 For any questions regarding these Terms of Service, please contact us:<br />
-                Email: hello@ensaura.com<br />
+                Email: ensauraa@gmail.com<br />
                 Phone: +91 8882930034
               </p>
             </section>
