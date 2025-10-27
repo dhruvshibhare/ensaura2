@@ -106,7 +106,7 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
                 <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2 flex-shrink-0"></span>
                 <div>
                   <p className="font-medium text-gray-900">Return Policy</p>
-                  <p className="text-sm text-gray-600">3 days return policy</p>
+                  <p className="text-sm text-gray-600">We accept returns or exchanges within 3 days and it will be only processed for manufacturing defects or wrong products delivered from our side.</p>
                 </div>
               </div>
             </div>
