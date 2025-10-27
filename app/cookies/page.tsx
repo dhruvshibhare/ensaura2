@@ -64,7 +64,7 @@ export default function CookiePolicy() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">5. Contact Us</h2>
               <p className="text-gray-600">
                 If you have any questions about our Cookie Policy, please contact us:<br />
-                Email: hello@ensaura.com<br />
+                Email: ensauraa@gmail.com<br />
                 Phone: +91 8882930034
               </p>
             </section>
