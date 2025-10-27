@@ -32,7 +32,7 @@ export default function PrivacyPolicy() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Introduction</h2>
               <p className="text-gray-600">
-                At Ensaura, we respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website or make a purchase.
+                At ensauraa, we respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website or make a purchase.
               </p>
             </section>
 
@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">5. Contact Us</h2>
               <p className="text-gray-600">
                 If you have any questions about our Privacy Policy, please contact us at:<br />
-                Email: hello@ensaura.com<br />
+                Email: ensauraa@gmail.com<br />
                 Phone: +91 8882930034
               </p>
             </section>
