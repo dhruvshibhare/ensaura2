@@ -17,6 +17,7 @@ export default function CheckoutPage() {
   const productId = params.get('productId') ?? '';
   const initialQty = Number(params.get('quantity') ?? '1');
   const [quantity, setQuantity] = useState<number>(initialQty > 0 ? initialQty : 1);
+  const [selectedSize, setSelectedSize] = useState<string>('');
 
   // Customer details state
   const [fullName, setFullName] = useState('');
@@ -39,6 +40,8 @@ export default function CheckoutPage() {
   // Using provided SheetDB endpoint
   const sheetsWebhookUrl = 'https://sheetdb.io/api/v1/xnt4ain0t4srk';
 
+  const whatsappNumber = '918882930034';
+  
   const validateForm = () => {
     const newErrors: Record<string, string> = {};
     
@@ -59,6 +62,8 @@ export default function CheckoutPage() {
     
     if (!pin) newErrors.pin = 'PIN code is required';
     else if (!/^\d{6}$/.test(pin)) newErrors.pin = 'Please enter a valid 6-digit PIN code';
+    
+    if (!selectedSize) newErrors.selectedSize = 'Size is required';
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -85,6 +90,7 @@ export default function CheckoutPage() {
         pin,
         productId: product.id,
         productName: product.name,
+        size: selectedSize,
         quantity,
         subtotal,
         shipping,
@@ -95,22 +101,34 @@ export default function CheckoutPage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       });
-      // After saving details, open WhatsApp with pre-filled message
-      window.open(whatsappHref, '_blank');
+      
+      // Build WhatsApp message
+      const whatsappMessage = encodeURIComponent(
+        product
+          ? `Hello, I'd like to order:\n- ${product.name}\nSize: ${selectedSize}\nQuantity: ${quantity}\nTotal: ₹${total}\n\nCustomer:\n${fullName}\n${phone}\n${address}, ${city}, ${state} - ${pin}`
+          : 'Hello, I would like to place an order.'
+      );
+      
+      // Create WhatsApp URLs for different platforms
+      const whatsappWebHref = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+      const whatsappAppHref = `whatsapp://send?phone=${whatsappNumber}&text=${whatsappMessage}`;
+      
+      // Detect platform
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      
+      // For mobile devices (iOS/Android), use whatsapp:// to open app directly
+      // For desktop, use web version in new tab
+      if (isMobile) {
+        window.location.href = whatsappAppHref;
+      } else {
+        window.open(whatsappWebHref, '_blank');
+      }
     } catch (err) {
       window.alert('Failed to submit details. Please try again.');
     } finally {
       setSubmitting(false);
     }
   };
-
-  const whatsappNumber = '918882930034';
-  const whatsappMessage = encodeURIComponent(
-    product
-      ? `Hello, I'd like to order:\n- ${product.name} x ${quantity}\nTotal: ₹${total}\n\nCustomer:\n${fullName}\n${phone}\n${address}, ${city}, ${state} - ${pin}`
-      : 'Hello, I would like to place an order.'
-  );
-  const whatsappHref = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
     <div className="min-h-screen bg-background">
@@ -244,6 +262,24 @@ export default function CheckoutPage() {
                     <div className="flex items-center justify-between">
                       <div className="text-sm text-foreground/80">{product.name}</div>
                       <div className="text-sm font-medium">{formatInr(product.price)}</div>
+                    </div>
+                    <div className="space-y-2">
+                      <div className="text-sm text-foreground/80">Size *</div>
+                      <div className="grid grid-cols-4 gap-2">
+                        {['XS', 'S', 'M', 'L'].map((size) => (
+                          <Button
+                            key={size}
+                            type="button"
+                            variant={selectedSize === size ? 'default' : 'outline'}
+                            size="sm"
+                            onClick={() => setSelectedSize(size)}
+                            className={errors.selectedSize && !selectedSize ? "border-red-500" : ""}
+                          >
+                            {size}
+                          </Button>
+                        ))}
+                      </div>
+                      {errors.selectedSize && <p className="text-xs text-red-500">{errors.selectedSize}</p>}
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="text-sm text-foreground/80">Quantity</div>
