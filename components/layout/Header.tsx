@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import PromoBar from './PromoBar';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,16 +29,19 @@ export default function Header() {
   ];
 
   return (
-    <motion.header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-white/95 backdrop-blur-md shadow-sm' 
-          : 'bg-transparent'
-      }`}
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.6 }}
-    >
+    <>
+      <PromoBar />
+      <motion.header
+        className={`fixed left-0 right-0 transition-all duration-300 ${
+          isScrolled 
+            ? 'bg-white/95 backdrop-blur-md shadow-sm' 
+            : 'bg-transparent'
+        }`}
+        style={{ top: '34px', zIndex: 9998 }}
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Left navigation */}
@@ -100,7 +104,7 @@ export default function Header() {
         {/* Mobile menu */}
         {isMobileMenuOpen && (
           <motion.div
-            className="fixed left-4 right-4 top-16 md:hidden bg-white/95 backdrop-blur-md rounded-lg p-4 shadow-lg z-50"
+            className="fixed left-4 right-4 top-[90px] md:hidden bg-white/95 backdrop-blur-md rounded-lg p-4 shadow-lg z-50"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
@@ -121,6 +125,7 @@ export default function Header() {
           </motion.div>
         )}
       </nav>
-    </motion.header>
+      </motion.header>
+    </>
   );
 }
