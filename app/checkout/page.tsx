@@ -18,6 +18,9 @@ export default function CheckoutPage() {
   const initialQty = Number(params.get('quantity') ?? '1');
   const [quantity, setQuantity] = useState<number>(initialQty > 0 ? initialQty : 1);
   const [selectedSize, setSelectedSize] = useState<string>('');
+  const [promoCode, setPromoCode] = useState<string>('');
+  const [promoApplied, setPromoApplied] = useState<boolean>(false);
+  const [promoError, setPromoError] = useState<string>('');
 
   // Customer details state
   const [fullName, setFullName] = useState('');
@@ -35,12 +38,29 @@ export default function CheckoutPage() {
   const product = useMemo(() => (productId ? findProductById(productId) : undefined), [productId]);
   const subtotal = product ? product.price * quantity : 0;
   const shipping = subtotal > 999 ? 0 : 99;
-  const total = subtotal + shipping;
+  const discount = promoApplied ? Math.round(subtotal * 0.15) : 0;
+  const total = subtotal + shipping - discount;
 
   // Using provided SheetDB endpoint
   const sheetsWebhookUrl = 'https://sheetdb.io/api/v1/xnt4ain0t4srk';
 
   const whatsappNumber = '918882930034';
+
+  const applyPromoCode = () => {
+    if (promoCode.toUpperCase() === 'LAUNCH15') {
+      setPromoApplied(true);
+      setPromoError('');
+    } else {
+      setPromoApplied(false);
+      setPromoError('Invalid promo code');
+    }
+  };
+
+  const removePromoCode = () => {
+    setPromoApplied(false);
+    setPromoCode('');
+    setPromoError('');
+  };
   
   const validateForm = () => {
     const newErrors: Record<string, string> = {};
@@ -92,6 +112,8 @@ export default function CheckoutPage() {
         productName: product.name,
         size: selectedSize,
         quantity,
+        promoCode: promoApplied ? promoCode : '',
+        discount,
         subtotal,
         shipping,
         total,
@@ -105,7 +127,7 @@ export default function CheckoutPage() {
       // Build WhatsApp message
       const whatsappMessage = encodeURIComponent(
         product
-          ? `Hello, I'd like to order:\n- ${product.name}\nSize: ${selectedSize}\nQuantity: ${quantity}\nTotal: ₹${total}\n\nCustomer:\n${fullName}\n${phone}\n${address}, ${city}, ${state} - ${pin}`
+          ? `Hello, I'd like to order:\n- ${product.name}\nSize: ${selectedSize}\nQuantity: ${quantity}${promoApplied ? `\nPromo Code: ${promoCode}\nDiscount: ₹${discount}` : ''}\nSubtotal: ₹${subtotal}\nShipping: ₹${shipping}\nTotal: ₹${total}\n\nCustomer:\n${fullName}\n${phone}\n${address}, ${city}, ${state} - ${pin}`
           : 'Hello, I would like to place an order.'
       );
       
@@ -133,7 +155,7 @@ export default function CheckoutPage() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <main className="pt-32 pb-16">
+      <main className="pt-26 sm:pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Shipping Form */
           }
@@ -263,6 +285,39 @@ export default function CheckoutPage() {
                       <div className="text-sm text-foreground/80">{product.name}</div>
                       <div className="text-sm font-medium">{formatInr(product.price)}</div>
                     </div>
+                    
+                    {/* Promo Code Section */}
+                    <div className="space-y-2 pb-2 border-b">
+                      {promoApplied ? (
+                        <div className="flex items-center justify-between p-2 bg-green-50 border border-green-200 rounded">
+                          <div className="text-sm text-green-800">
+                            Promo code applied: <span className="font-bold">{promoCode}</span>
+                          </div>
+                          <Button variant="ghost" size="sm" onClick={removePromoCode} className="h-6 text-xs text-green-700 hover:text-green-900">
+                            Remove
+                          </Button>
+                        </div>
+                      ) : (
+                        <div className="flex gap-2">
+                          <Input
+                            placeholder="Enter promo code"
+                            value={promoCode}
+                            onChange={(e) => setPromoCode(e.target.value)}
+                            onKeyPress={(e) => {
+                              if (e.key === 'Enter') {
+                                applyPromoCode();
+                              }
+                            }}
+                            className="text-sm"
+                          />
+                          <Button size="sm" onClick={applyPromoCode} className="whitespace-nowrap">
+                            Apply
+                          </Button>
+                        </div>
+                      )}
+                      {promoError && <p className="text-xs text-red-500">{promoError}</p>}
+                    </div>
+                    
                     <div className="space-y-2">
                       <div className="text-sm text-foreground/80">Size *</div>
                       <div className="grid grid-cols-4 gap-2">
@@ -297,6 +352,12 @@ export default function CheckoutPage() {
                       <div className="text-sm text-foreground/80">Shipping</div>
                       <div className="text-sm font-medium">{shipping === 0 ? 'Free' : formatInr(shipping)}</div>
                     </div>
+                    {promoApplied && discount > 0 && (
+                      <div className="flex items-center justify-between">
+                        <div className="text-sm text-green-600">Discount (15%)</div>
+                        <div className="text-sm font-medium text-green-600">-{formatInr(discount)}</div>
+                      </div>
+                    )}
                     <div className="flex items-center justify-between text-foreground font-semibold text-lg pt-2 border-t">
                       <div>Total</div>
                       <div>{formatInr(total)}</div>
