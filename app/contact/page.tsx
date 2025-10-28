@@ -36,7 +36,7 @@ export default function Contact() {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-primary">
+      <section className="pt-32 pb-16 bg-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             className="text-center"
