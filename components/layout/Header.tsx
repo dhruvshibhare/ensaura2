@@ -37,7 +37,7 @@ export default function Header() {
             ? 'bg-white/95 backdrop-blur-md shadow-sm' 
             : 'bg-transparent'
         }`}
-        style={{ top: '34px', zIndex: 9998 }}
+        style={{ top: '28px', zIndex: 9998 }}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6 }}
@@ -104,7 +104,7 @@ export default function Header() {
         {/* Mobile menu */}
         {isMobileMenuOpen && (
           <motion.div
-            className="fixed left-4 right-4 top-[90px] md:hidden bg-white/95 backdrop-blur-md rounded-lg p-4 shadow-lg z-50"
+            className="fixed left-4 right-4 top-[84px] md:hidden bg-white/95 backdrop-blur-md rounded-lg p-4 shadow-lg z-50"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
