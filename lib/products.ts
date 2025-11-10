@@ -197,15 +197,25 @@ All measurements are in inches`,
     name: "Natural Grey Linen Shrug",
     description: `I am more than enough  always was: Often, our sense of worth becomes tied to achievements, validation, or comparison but true emotional healing begins when we realise that that our worth isn’t something to earn, it already exists within us. it helps reframe self-doubt into self-acceptance. This affirmation will make you remind that you have always been enough.  
 
-Features- 
+Features
 
-1.Linen fabric 
+• Linen fabric
 
- 
-2.Relaxed, breathable fit with a single-button closure
+• Relaxed, breathable fit with a single-button closure
 
- 
-3.Natural Grey – a soft, earthy grey with gentle beige undertones that reflect the natural texture of linen.`,
+• Natural Grey – a soft, earthy grey with gentle beige undertones that reflect the natural texture of linen.
+
+Size Guide
+
+|  Size  |  Chest  |  Waist  | Arms | Sleeve | Length |  Hips   | Top Length |
+|--------|---------|---------|------|--------|---------|---------|------------|
+|   S    | 30-33   | 24-27   |  17  |   18   |   19    | 32-38   |    24     |
+|   M    | 32-36   | 26-29   |  18  |   18   |   23    | 34-38   |    25     |
+|   L    | 35-38   | 30-32   |  19  |   18   |   26    | 39-40   |    27     |
+|   XL   | 38-42   | 32-36   |  20  |   18   |   27    | 40-43   |    29     |
+|  XXL   | 40-44   | 34-40   |  21  |   19   |   28    | 42-46   |    30     |
+
+All measurements are in inches`,
     price: 2650,
     category: 'shirts',
     images: [
