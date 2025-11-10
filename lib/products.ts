@@ -29,10 +29,10 @@ All measurements are in inches`,
     price: 2500,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465650/IMG_2623_jkhhgn.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465521/IMG_26241_yaayuy.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465521/IMG_2624_xpeyo3.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465651/IMG_26244_dz3kov.jpg"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422626/black-linen1_qhk9mt.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422627/black-linen2_xtk5rd.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422626/black-linen3_kuaztf.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422628/black-linen4_biidwp.png"
     ],
     stock: 50,
     featured: true,
@@ -67,9 +67,10 @@ All measurements are in inches`,
     price: 2650,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466611/IMG_2648_w5g7qi.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466594/IMG_2647_i5co71.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466594/IMG_2644_e3vowx.jpg"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422629/blue-floral1_kmblxo.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422629/blue-floral2_zs6fvk.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422629/blue-floral3_hasjjc.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422627/blue-floral4_cwvbsb.png"
     ],
     stock: 50,
     featured: true,
@@ -104,10 +105,10 @@ All measurements are in inches`,
     price: 2200,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466932/IMG_2651_zhny8c.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469068/IMG_2649_wkhxd0.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466932/IMG_26492_sug4a2.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469697/WhatsApp_Image_2025-10-26_at_14.15.43_5dfd75d4_nawfea.jpg"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422654/green-striped2_i93ivn.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422654/green-striped1_ah5ydt.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422654/green-striped3_wki1gn.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422656/green-striped4_gknt8j.png"
     ],
     stock: 50,
     featured: true,
@@ -142,10 +143,10 @@ All measurements are in inches`,
     price: 2200,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465505/IMG_2630_wljjuj.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465521/im333_uochui.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469068/IMG_26321_hq79do.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466024/IMG_2632_wqh6ai.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422656/black-striped4_jtqqax.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422657/black-striped1_sfcuz2.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422655/black-striped2_blqxiz.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422656/black-striped3_sobocq.png",
     ],
     stock: 50,
     featured: true,
@@ -181,27 +182,30 @@ All measurements are in inches`,
     price: 2200,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_2628_oujmxd.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_26293_sj65dk.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469068/IMG_26294_msrvzs.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_2629_oysj5p.jpg"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422714/grey-striped1_fxayc7.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422713/grey-striped2_gd6twv.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422714/grey-striped3_rw6irl.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422713/grey-striped4_ylyilr.png"
     ],
     stock: 50,
     featured: true,
     createdAt: new Date(),
     updatedAt: new Date()
   },
-    {
+  {
     id: "natural-grey-linen-shrug",
     name: "Natural Grey Linen Shrug",
     description: `I am more than enough  always was: Often, our sense of worth becomes tied to achievements, validation, or comparison but true emotional healing begins when we realise that that our worth isn’t something to earn, it already exists within us. it helps reframe self-doubt into self-acceptance. This affirmation will make you remind that you have always been enough.  
 
-    Features
+Features- 
 
-    • Linen fabric
-    • Relaxed, breathable fit with a single-button closure
-    • Natural Grey – a soft, earthy grey with gentle beige undertones that reflect the natural texture of linen.
+1.Linen fabric 
 
+ 
+2.Relaxed, breathable fit with a single-button closure
+
+ 
+3.Natural Grey – a soft, earthy grey with gentle beige undertones that reflect the natural texture of linen.`,
     price: 2650,
     category: 'shirts',
     images: [
