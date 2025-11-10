@@ -200,9 +200,7 @@ All measurements are in inches`,
 Features
 
 • Linen fabric
-
 • Relaxed, breathable fit with a single-button closure
-
 • Natural Grey – a soft, earthy grey with gentle beige undertones that reflect the natural texture of linen.
 
 Size Guide
