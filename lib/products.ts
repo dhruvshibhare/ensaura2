@@ -67,10 +67,9 @@ All measurements are in inches`,
     price: 2650,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_2628_oujmxd.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_26293_sj65dk.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_2629_oysj5p.jpg",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469068/IMG_26294_msrvzs.jpg"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466611/IMG_2648_w5g7qi.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469067/IMG_2644_waeeyd.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469067/IMG_2644_waeeyd.jpg",
     ],
     stock: 50,
     featured: true,
