@@ -29,10 +29,10 @@ All measurements are in inches`,
     price: 2500,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422626/black-linen1_qhk9mt.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422627/black-linen2_xtk5rd.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422626/black-linen3_kuaztf.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422628/black-linen4_biidwp.png"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465650/IMG_2623_jkhhgn.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465651/IMG_26244_dz3kov.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465521/IMG_26241_yaayuy.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761465521/IMG_2624_xpeyo3.jpg"
     ],
     stock: 50,
     featured: true,
@@ -67,10 +67,10 @@ All measurements are in inches`,
     price: 2650,
     category: 'shirts',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422629/blue-floral1_kmblxo.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422629/blue-floral2_zs6fvk.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422629/blue-floral3_hasjjc.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761422627/blue-floral4_cwvbsb.png"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_2628_oujmxd.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_26293_sj65dk.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761466347/IMG_2629_oysj5p.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1761469068/IMG_26294_msrvzs.jpg"
     ],
     stock: 50,
     featured: true,
