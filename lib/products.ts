@@ -251,7 +251,7 @@ products.push(
   {
     id: "navy-muslin-linen-knot",
     name: "Navy Blue Muslin-Linen Knot Cuff Shirt (It's Time to Release)",
-      description: `Navy Blue Muslin-Linen Knot Cuff Shirt (It's time to release)\n\nA relaxed-fit shirt in a muslin-linen blend with knot cuff detailing and a deep navy colour — gentle, breathable, and designed for everyday wear.\n\nFeatures\n\n1. Muslin-linen blend fabric\n2. Relaxed, easy fit knot cuffs\n3. Deep navy blue colour\n\nPrice: ₹2075\n15% off: ₹1763`,
+      description: `Navy Blue Muslin-Linen Knot Cuff Shirt (It's time to release)\n\nA relaxed-fit shirt in a muslin-linen blend with knot cuff detailing and a deep navy colour gentle, breathable, and designed for everyday wear.\n\nFeatures\n\n1. Muslin-linen blend fabric\n2. Relaxed, easy fit knot cuffs\n3. Deep navy blue colour\n\nPrice: ₹2075\n15% off: ₹1763`,
     price: 2075,
     category: 'limited',
     images: [
@@ -266,7 +266,7 @@ products.push(
   {
     id: "sunshine-yellow-muslin-linen-knot",
     name: "Sunshine Yellow Muslin-Linen Knot Cuff Shirt (Love Yourself)",
-      description: `Sunshine Yellow Muslin-Linen Knot Cuff Shirt (Love Yourself)\n\nA sunny muslin-linen shirt with relaxed fit and knot cuffs — bright, breathable and perfect for uplifting your wardrobe.\n\nFeatures\n\n1. Muslin-linen blend fabric\n2. Relaxed, easy fit knot cuffs\n3. Sunshine Yellow colour\n\nPrice: ₹2075\n15% off: ₹1763`,
+      description: `Sunshine Yellow Muslin-Linen Knot Cuff Shirt (Love Yourself)\n\nA sunny muslin-linen shirt with relaxed fit and knot cuffs  bright, breathable and perfect for uplifting your wardrobe.\n\nFeatures\n\n1. Muslin-linen blend fabric\n2. Relaxed, easy fit knot cuffs\n3. Sunshine Yellow colour\n\nPrice: ₹2075\n15% off: ₹1763`,
     price: 2075,
     category: 'limited',
     images: [
