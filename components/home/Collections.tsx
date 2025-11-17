@@ -16,8 +16,8 @@ const collections = [
   },
     {
     id: 'limited-addition',
-    name: 'Limited addition',
-    description: 'New arrivals — limited quantities',
+    name: 'Empath to Self Collection (Limited edition)',
+    description: 'Empath to Self Collection',
     image: 'https://res.cloudinary.com/dwoifav4o/image/upload/v1763399514/hatterneck4_voakna.jpg',
     href: '/collections/limited-addition',
     featured: false
