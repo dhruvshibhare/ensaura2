@@ -3,7 +3,8 @@ export interface Product {
   name: string;
   description: string;
   price: number;
-  category: 'candles' | 'shirts';
+  // added 'limited' so we can create a dedicated Limited collection
+  category: 'candles' | 'shirts' | 'limited';
   images: string[];
   stock: number;
   featured: boolean;
