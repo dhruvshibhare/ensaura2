@@ -249,42 +249,53 @@ products.push(
     updatedAt: new Date()
   },
   {
-    id: "natural-grey-linen-shrug",
-    name: "Natural Grey Linen Shrug",
-    description: `I am more than enough  always was: Often, our sense of worth becomes tied to achievements, validation, or comparison but true emotional healing begins when we realise that that our worth isn’t something to earn, it already exists within us. it helps reframe self-doubt into self-acceptance. This affirmation will make you remind that you have always been enough.  
-
-Features
-
-• Linen fabric
-• Relaxed, breathable fit with a single-button closure
-• Natural Grey – a soft, earthy grey with gentle beige undertones that reflect the natural texture of linen.
-
-Size Guide
-
-|  Size  |  Chest  |  Waist  | Arms | Sleeve | Length |  Hips   | Top Length |
-|--------|---------|---------|------|--------|---------|---------|------------|
-|   S    | 30-33   | 24-27   |  17  |   18   |   19    | 32-38   |    24     |
-|   M    | 32-36   | 26-29   |  18  |   18   |   23    | 34-38   |    25     |
-|   L    | 35-38   | 30-32   |  19  |   18   |   26    | 39-40   |    27     |
-|   XL   | 38-42   | 32-36   |  20  |   18   |   27    | 40-43   |    29     |
-|  XXL   | 40-44   | 34-40   |  21  |   19   |   28    | 42-46   |    30     |
-
-All measurements are in inches`,
-    price: 2650,
-    // this product belongs to the AURA DROP (shirts) collection
-    category: 'shirts',
+    id: "navy-muslin-linen-knot",
+    name: "Navy Blue Muslin-Linen Knot Cuff Shirt (It's Time to Release)",
+      description: `Navy Blue Muslin-Linen Knot Cuff Shirt (It's time to release)\n\nA relaxed-fit shirt in a muslin-linen blend with knot cuff detailing and a deep navy colour — gentle, breathable, and designed for everyday wear.\n\nFeatures\n\n1. Muslin-linen blend fabric\n2. Relaxed, easy fit knot cuffs\n3. Deep navy blue colour\n\nPrice: ₹2075\n15% off: ₹1763`,
+    price: 2075,
+    category: 'limited',
     images: [
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1762767357/natural_grey_linen1_fxzvt9.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1762767357/natural_grey_linen_ktljje.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1762767357/Natural_Grey_Linen2_bk9jm9.png",
-      "https://res.cloudinary.com/dwoifav4o/image/upload/v1762767356/Natural_Grey_Linen_3_nntmcg.png"
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763399514/muslimlinen_jov8pg.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763399515/muslimlinen1_hmewjy.jpg"
     ],
-    stock: 50,
+    stock: 20,
+    featured: true,
+    createdAt: new Date(),
+    updatedAt: new Date()
+  },
+  {
+    id: "sunshine-yellow-muslin-linen-knot",
+    name: "Sunshine Yellow Muslin-Linen Knot Cuff Shirt (Love Yourself)",
+      description: `Sunshine Yellow Muslin-Linen Knot Cuff Shirt (Love Yourself)\n\nA sunny muslin-linen shirt with relaxed fit and knot cuffs — bright, breathable and perfect for uplifting your wardrobe.\n\nFeatures\n\n1. Muslin-linen blend fabric\n2. Relaxed, easy fit knot cuffs\n3. Sunshine Yellow colour\n\nPrice: ₹2075\n15% off: ₹1763`,
+    price: 2075,
+    category: 'limited',
+    images: [
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763400199/muslin_yellow_sunshine_3_sgsvia.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763399515/muslimlinensunshine2_lnsvlw.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763399515/muslimlinensunshine_nw13ip.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763399514/muslimlinenshunshine_s1crkr.jpg"
+    ],
+    stock: 20,
+    featured: true,
+    createdAt: new Date(),
+    updatedAt: new Date()
+  },
+  {
+    id: "butter-yellow-cotton-shirt",
+    name: "Butter Yellow Cotton Shirt — Tulip Affirmation",
+      description: `Butter Yellow Cotton Shirt — Tulip Affirmation (I approve of myself)\n\nThis affirmation helps strengthen self-worth. Wearing it serves as a daily reminder to trust your choices, release self-doubt, and offer yourself the same kindness you give others. Tulips represent rebirth, calmness, and gentle emotional growth. They bloom in early spring, a season linked with new beginnings and healing.\n\nFeatures\n\n1. Cotton fabric\n2. Relaxed, easy daily wear\n3. Slightly rounded hem for an effortless silhouette\n\nPrice: ₹2250\n15% off: ₹1912`,
+    price: 2250,
+    category: 'limited',
+    images: [
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763399525/butter_c391sa.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763399525/butter2_ggrdqb.jpg"
+    ],
+    stock: 20,
     featured: true,
     createdAt: new Date(),
     updatedAt: new Date()
   }
-];
+);
 
 export function listProducts(): Product[] {
   return products;
