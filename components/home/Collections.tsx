@@ -14,6 +14,14 @@ const collections = [
     href: '/collections/shirts',
     featured: true
   },
+    {
+    id: 'limited-addition',
+    name: 'Limited addition',
+    description: 'New arrivals — limited quantities',
+    image: 'https://res.cloudinary.com/dwoifav4o/image/upload/v1763399514/hatterneck4_voakna.jpg',
+    href: '/collections/limited-addition',
+    featured: false
+  }
   // wellness collection removed
 ];
 
