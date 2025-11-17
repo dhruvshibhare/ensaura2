@@ -31,7 +31,7 @@ export default function LimitedCollectionPage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl font-display font-bold text-white mb-6">
-              Limited addition
+              Empath to Self Collection (Limited edition)
             </h1>
             <p className="text-xl text-white/90 max-w-2xl mx-auto">
               New arrivals — limited quantities. Shop the Limited addition collection.
@@ -145,3 +145,4 @@ export default function LimitedCollectionPage() {
     </div>
   );
 }
+
