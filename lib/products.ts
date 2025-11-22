@@ -295,10 +295,10 @@ products.push(
     createdAt: new Date(),
     updatedAt: new Date()
   },
-   {
-    id: "Side Drawstring Shirt (Peach)",
+  {
+    id: "side-drawstring-shirt-peach",
     name: "Side Drawstring Shirt (Peach)",
-      description: `Linen fabric\n\nPrice: ₹2450\n15% off: ₹2082`,
+      description: `Linen fabric`,
     price: 2450,
     category: 'limited',
     images: [
@@ -312,9 +312,9 @@ products.push(
     updatedAt: new Date()
   },
   {
-    id: "Side Drawstring Shirt (Green)",
+    id: "side-drawstring-shirt-green",
     name: "Side Drawstring Shirt (Green)",
-      description: `Linen fabric\n\nPrice: ₹2450\n15% off: ₹2082`,
+      description: `Linen fabric`,
     price: 2450,
     category: 'limited',
     images: [
@@ -327,9 +327,9 @@ products.push(
     updatedAt: new Date()
   },
     {
-    id: "Navy Blue Blanket Stitch Shirt",
+    id: "Navy-Blue-Blanket-Stitch-Shirt",
     name: "Navy Blue Blanket Stitch Shirt",
-      description: `Cotton Linen fabric\n\nPrice: ₹2100\n15% off: ₹1785`,
+      description: `Cotton Linen fabric`,
     price: 2450,
     category: 'limited',
     images: [
