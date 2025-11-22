@@ -294,7 +294,55 @@ products.push(
     featured: true,
     createdAt: new Date(),
     updatedAt: new Date()
-  }
+  },
+   {
+    id: "Side Drawstring Shirt (Peach)",
+    name: "Side Drawstring Shirt (Peach)",
+      description: `Linen fabric\n\nPrice: ₹2450\n15% off: ₹2082`,
+    price: 2450,
+    category: 'limited',
+    images: [
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763771530/SideDrawstringShirt_5_jvscrn.jpg",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763771531/SideDrawstringShirt_1_tk5vde.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763771531/SideDrawstringShirt_1_tk5vde.png"
+    ],
+    stock: 20,
+    featured: true,
+    createdAt: new Date(),
+    updatedAt: new Date()
+  },
+  {
+    id: "Side Drawstring Shirt (Green)",
+    name: "Side Drawstring Shirt (Green)",
+      description: `Linen fabric\n\nPrice: ₹2450\n15% off: ₹2082`,
+    price: 2450,
+    category: 'limited',
+    images: [
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763771531/SideDrawstringShirt3_y6lu4h.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763771531/SideDrawstringShirt_4_uv8yh0.png",
+    ],
+    stock: 20,
+    featured: true,
+    createdAt: new Date(),
+    updatedAt: new Date()
+  },
+    {
+    id: "Navy Blue Blanket Stitch Shirt",
+    name: "Navy Blue Blanket Stitch Shirt",
+      description: `Cotton Linen fabric\n\nPrice: ₹2100\n15% off: ₹1785`,
+    price: 2450,
+    category: 'limited',
+    images: [
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763772103/ensaura_w8g7pa.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763772103/Ensaura3_vruenm.png",
+      "https://res.cloudinary.com/dwoifav4o/image/upload/v1763772104/ensaura2_ajj0vm.png"
+    ],
+    stock: 20,
+    featured: true,
+    createdAt: new Date(),
+    updatedAt: new Date()
+  },
+  
 );
 
 export function listProducts(): Product[] {
