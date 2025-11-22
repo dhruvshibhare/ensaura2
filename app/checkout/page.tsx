@@ -321,7 +321,7 @@ export default function CheckoutPage() {
                     <div className="space-y-2">
                       <div className="text-sm text-foreground/80">Size *</div>
                       <div className="grid grid-cols-4 gap-2">
-                        {['XS', 'S', 'M', 'L'].map((size) => (
+                        {['XS', 'S', 'M', 'L' , 'XL'].map((size) => (
                           <Button
                             key={size}
                             type="button"
