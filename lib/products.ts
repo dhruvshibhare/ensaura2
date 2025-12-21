@@ -149,6 +149,7 @@ All measurements are in inches`,
     ],
     stock: 50,
     featured: true,
+    soldOut: true,
     createdAt: new Date(),
     updatedAt: new Date()
   },
@@ -245,6 +246,7 @@ products.push(
     ],
     stock: 20,
     featured: true,
+    soldOut: true,
     createdAt: new Date(),
     updatedAt: new Date()
   },
@@ -277,6 +279,7 @@ products.push(
     ],
     stock: 20,
     featured: true,
+    soldOut: true,
     createdAt: new Date(),
     updatedAt: new Date()
   },
