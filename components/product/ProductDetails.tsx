@@ -20,6 +20,12 @@ export default function ProductDetails({ product }: ProductDetailsProps) {
       <div className="flex flex-col">
         <h1 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-3">{product.name}</h1>
         
+        {product.soldOut && (
+          <div className="mb-4 inline-block">
+            <span className="bg-red-100 text-red-800 text-sm font-semibold px-3 py-1 rounded">Sold Out</span>
+          </div>
+        )}
+        
         <div className="flex items-center gap-4 mb-6">
           <div className="text-2xl text-gray-900 font-bold">₹{product.price}</div>
         </div>
