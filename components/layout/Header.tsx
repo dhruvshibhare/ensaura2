@@ -32,11 +32,7 @@ export default function Header() {
     <>
       <PromoBar />
       <motion.header
-        className={`fixed left-0 right-0 transition-all duration-300 ${
-          isScrolled 
-            ? 'bg-white/95 backdrop-blur-md shadow-sm' 
-            : 'bg-transparent'
-        }`}
+        className="fixed left-0 right-0 bg-white/95 backdrop-blur-md shadow-sm transition-all duration-300"
         style={{ top: '28px', zIndex: 9998 }}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
