@@ -9,11 +9,18 @@ export default function VideoHero() {
 
   return (
     <section className="sticky top-0 h-screen w-full overflow-hidden z-10">
-      {/* Image Background */}
+      {/* Image Background - Mobile */}
       <img
-        src="https://res.cloudinary.com/dwoifav4o/image/upload/v1761424092/Editorial_Photographer_sp42gz.png"
+        src="https://res.cloudinary.com/dwoifav4o/image/upload/v1766862036/WhatsApp_Image_2025-12-24_at_12.56.33_df393fc5_vr1vq3.jpg"
         alt="Hero Banner"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover md:hidden"
+      />
+
+      {/* Image Background - Desktop */}
+      <img
+        src="https://res.cloudinary.com/dwoifav4o/image/upload/v1766862247/u_cunlrh.jpg"
+        alt="Hero Banner"
+        className="hidden md:block absolute inset-0 w-full h-full object-cover"
       />
 
       {/* Overlay */}
