@@ -16,14 +16,14 @@ export default function PromoBar() {
       <div className="absolute inset-0 bg-gradient-to-r from-gray-800 via-amber-950 to-gray-800 animate-gradient-xy opacity-75" />
       
       {/* Content - Desktop */}
-      <div className="hidden sm:flex items-center justify-center gap-2 px-4 relative z-10">
+      <div className="hidden sm:flex items-center justify-center gap-2 px-4 relative z-10 flex-col sm:flex-row">
         <Instagram className="h-4 w-4 animate-pulse flex-shrink-0 text-amber-200" />
-        <span className="text-sm">Launch Offer: Follow <a href="https://www.instagram.com/ensauraa?igsh=dTMyOWZ4aWQ2NTFz" target="_blank" rel="noopener noreferrer" className="underline font-semibold hover:no-underline transition-all text-amber-200">@ensauraa</a> & DM us &quot;hi&quot; on Instagram to unlock your <span className="bg-amber-100 text-amber-900 px-2 py-0.5 rounded font-bold">15% OFF</span> code!</span>
+        <span className="text-sm">Celebrate the New Year with <span className="bg-amber-100 text-amber-900 px-2 py-0.5 rounded font-bold">15% OFF</span> on Ensauraa<br className="sm:hidden" /> DM us &quot;hi&quot; & follow <a href="https://www.instagram.com/ensauraa?igsh=dTMyOWZ4aWQ2NTFz" target="_blank" rel="noopener noreferrer" className="underline font-semibold hover:no-underline transition-all text-amber-200">@ensauraa</a> to unlock your 15% off code!</span>
       </div>
 
       {/* Content - Mobile */}
       <div className="sm:hidden flex items-center justify-center px-3 relative z-10">
-        <span className="text-[9px] leading-tight text-center">Follow <a href="https://www.instagram.com/ensauraa?igsh=dTMyOWZ4aWQ2NTFz" target="_blank" rel="noopener noreferrer" className="underline font-semibold hover:no-underline text-amber-200">@ensauraa</a> & DM &quot;hi&quot; to unlock your <span className="bg-amber-100 text-amber-900 px-1 py-0.5 rounded font-bold">15% OFF</span> code!</span>
+        <span className="text-[9px] leading-tight text-center">Celebrate the New Year with <span className="bg-amber-100 text-amber-900 px-1 py-0.5 rounded font-bold">15% OFF</span> on Ensauraa DM us &quot;hi&quot; & follow <a href="https://www.instagram.com/ensauraa?igsh=dTMyOWZ4aWQ2NTFz" target="_blank" rel="noopener noreferrer" className="underline font-semibold hover:no-underline text-amber-200">@ensauraa</a> to unlock your 15% off code!</span>
       </div>
 
       {/* Animated sparkle effect */}
